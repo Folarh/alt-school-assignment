@@ -1,0 +1,171 @@
+html, body {
+    height: 100%;
+    width: 100%;
+      background:#f2f2f2;
+  }
+  
+  
+  header{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 2px 3px rgba(0,0,0,0.1);
+    background: white;
+  }
+  
+  .my-name ul{
+    font-style: italic;
+    font-size: 18px;
+    list-style: none; 
+  }
+  
+  .my-name ul li a{
+    color: red;
+    text-decoration: none;
+  }
+  
+  .nav-bar{
+  /*   width: 100%; */
+    width: 0 auto;
+    
+  }
+  
+  .nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  
+  .nav-bar ul li{
+  color: teal;
+    padding-left: 40px;
+  }
+  
+  .nav-bar ul li a{
+  text-decoration: none;
+    color: black;
+  }
+  
+  .nav-bar ul li a:hover{
+  color:red;
+  box-shadow: 0 0 2px 3px rgba(0,0,0,0.1);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .operate{
+    background: grey
+  }
+  
+  .orange{
+    background: orange;
+    color: white;
+  }
+  
+  button{
+    background: red;
+    border: none;
+    width: 100px;
+    height: 40px;
+  }
+  .container h3{
+    background: brown;
+    width: 420px;
+    height: 50px;
+  }
+  
+  #double{
+    width:200px
+  }
+  main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 100px;
+  }
+  
+  .container1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid grey;
+    width: 450px;
+   
+   
+  }
+  .container1 .h h2{
+    height: 50px;
+    background: brown;
+    width: 430px;
+    margin-left: 15px;
+    text-align: start;
+  }
+  .container1 .first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:450px;
+     margin-bottom: 10px;
+    height: 30px;
+    
+  }
+  .container1 .second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:450px;
+    margin-bottom: 10px;
+     height: 30px;
+    
+  }
+  .container1 .third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:450px;
+    margin-bottom: 10px;
+     height: 30px;
+  }
+  
+  .container1 .fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:450px;
+    margin-bottom: 10px;
+     height: 30px;
+  }
+  
+  .container1 .fifth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:450px;
+    margin-bottom: 10px;
+     height: 30px;
+  }
+  .grey{
+    background: grey;
+    width: 70px;
+  }
+  .yellow{
+    background: orange;
+    width: 70px;
+  }
+  
+  span{
+    width: 185px;
+    background: red;
+  }
+  
+  .spec{
+    width: 70px;
+    background: red;
+    
+  }
